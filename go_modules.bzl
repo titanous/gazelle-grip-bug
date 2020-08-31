@@ -180,6 +180,7 @@ def go_repositories():
         importpath = "github.com/dgraph-io/badger/v2",
         sum = "h1:+D6dhIqC6jIeCclnxMHqk4HPuXgrRN5UfBsLR4dNQ3A=",
         version = "v2.0.1",
+        build_file_proto_mode = "disable",
     )
     go_repository(
         name = "com_github_dgraph_io_ristretto",
